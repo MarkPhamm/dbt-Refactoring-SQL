@@ -1,0 +1,10 @@
+{
+    "dbt.enableNewLineagePanel": true,
+    "files.associations": {
+        "*.sql": "sql",  // Associate all .sql files with SQL syntax highlighting
+        "*.yml": "yaml", // Associate .yml files with YAML syntax highlighting
+        "*.jinja": "html" // Optional, to improve Jinja syntax highlighting
+    },
+    "sqlfluff.dialect": "snowflake",  // Use the correct SQL dialect for DBT
+    "sqlfluff.templater": "dbt"  // Enable DBT templating in SQLFluff
+}

@@ -1,0 +1,14 @@
+[sqlfluff]
+dialect = snowflake
+templater = dbt
+
+[sqlfluff.templater.dbt]
+load_macros_from_path = macros
+
+[sqlfluff.core]
+ignore_templated_areas = True
+exclude_rules = L031,L034
+
+[sqlfluff:rules]
+tab_space_size = 4
+indent_size = 4
